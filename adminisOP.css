@@ -1,0 +1,94 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  width: 100%;
+  padding-top: 10px;
+  height: 100px;
+}
+
+.header a {
+  font-size: 18px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: grey;
+  text-decoration: none;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 40px;
+  margin-bottom: 30px;
+  float: right;
+}
+
+.header a:hover {
+  border-bottom: 1px solid grey;
+}
+
+#changeFormDiv {
+  background-color: whitesmoke;
+  margin: 10%;
+  margin-left: 25%;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 50%;
+}
+
+#changeForm {
+  margin-top: 40px;
+  margin-left: 30%;
+}
+
+.inputChange {
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, "Geneva", Verdana, sans-serif;
+  border: 2px solid skyblue;
+  border-radius: 5px;
+  width: 40%;
+  height: 50px;
+  margin-left: 30%;
+  margin-top: 10%;
+  display: block;
+  padding-left: 20px;
+}
+
+#changeFormDivp {
+  margin-top: 50px;
+}
+#changeFormDiv input {
+  display: block;
+}
+
+#mechanicSlct {
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, "Geneva", Verdana, sans-serif;
+  border: 2px solid skyblue;
+  border-radius: 5px;
+  width: 43%;
+  height: 50px;
+  margin-left: 30%;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  display: block;
+  padding-left: 20px;
+}
+
+#finalizeBtn {
+  cursor: pointer;
+  font-size: 15px;
+  margin: 30px auto 30px auto;
+  min-width: 100px;
+  min-height: 50px;
+  border: 2px solid #008cba;
+  border-radius: 5px;
+}
+
+#finalizeBtn:hover {
+  transition-duration: 0.8s;
+  background-color: #008cba;
+  color: white;
+}

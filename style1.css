@@ -1,0 +1,17 @@
+#regSuccessful {
+  background-color: whitesmoke;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 10%;
+  border: 1px solid;
+  border-radius: 5px;
+  text-align: center;
+  width: 30%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#regSuccessful a {
+  text-decoration: none;
+  color: skyblue;
+  font-weight: bold;
+}

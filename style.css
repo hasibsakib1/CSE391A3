@@ -1,0 +1,104 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#regSuccessful {
+  color: red;
+  margin-top: 105%;
+  border: 1px solid;
+}
+#regMsg {
+  color: red;
+}
+
+/* Whole body behaviour */
+body {
+  margin: 0;
+  background-color: whitesmoke;
+}
+
+#loginDiv {
+  background-color: white;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 150px;
+  border: 1px solid white;
+  border-radius: 6px;
+}
+
+.loginInputparagraph {
+  margin-top: 50px;
+  font-family: "consolas";
+  font-size: 30px;
+  padding-left: 20%;
+  padding-right: 20%;
+  width: 60%;
+  text-align: center;
+}
+
+.loginInputBox {
+  font-size: large;
+  padding-left: 20px;
+  border: none;
+  border-bottom: 1px solid gray;
+  border-radius: 2px;
+  margin-top: 80px;
+  height: 40px;
+  width: 80%;
+}
+
+#loginInputBtn {
+  font-weight: 550;
+  font-family: "consolas";
+  font-size: 14px;
+  margin-top: 60px;
+  height: 40px;
+  width: 100px;
+}
+
+#notUser {
+  padding-left: 25%;
+  margin-bottom: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#notUser a {
+  text-decoration: none;
+  color: skyblue;
+}
+
+.footer {
+  display: flow-root;
+  margin-top: 100px;
+  background-color: #333;
+  position: relative;
+  margin-bottom: 0;
+  width: 100%;
+  font-family: arial, helvetica, sans-serif;
+}
+
+.footer a {
+  float: right;
+  color: #8d8d8d;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 20px 16px;
+}
+
+.footer .backtoTop {
+  float: left;
+  font-size: 15px;
+  padding: 20px 16px;
+}
+
+.footer a:hover {
+  color: silver;
+}
+
+.footer a:active {
+  color: white;
+}
